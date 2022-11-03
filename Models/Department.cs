@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ogarphia_crud.Models
 {
-    [Table("departement", Schema = "dbo")]
-    public class Departement
+    [Table("department", Schema = "dbo")]
+    public class Department
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
