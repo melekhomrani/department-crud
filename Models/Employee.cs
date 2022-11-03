@@ -50,7 +50,7 @@ namespace ogarphia_crud.Models
         [Display(Name = "Department")]
         [NotMapped]
         public string DepartmentName { get; set; }
-
+        
         public virtual Departement Departement { get; set; }
 
     }
