@@ -51,7 +51,7 @@ namespace ogarphia_crud.Models
         [NotMapped]
         public string DepartmentName { get; set; }
         
-        public virtual Departement Departement { get; set; }
+        public virtual Department Department { get; set; }
 
     }
 }
