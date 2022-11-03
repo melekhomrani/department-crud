@@ -25,12 +25,12 @@ namespace ogarphia_crud.Models
         [Required]
         [Display(Name = "Employee Birth Date")]
         [DataType(DataType.Date)]
-        public DateOnly DOB { get; set; }
+        public DateTime DOB { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
         [Display(Name = "Hiring Date")]
-        public DateOnly HiringDate { get; set; }
+        public DateTime HiringDate { get; set; }
 
         [Required]
         [Display(Name = "Gross Salary")]
